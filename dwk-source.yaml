@@ -6,5 +6,7 @@ metadata:
 spec:
   interval: 10m
   url: ssh://git@github.com/santoser/devops-with-k8s
+  secretRef:
+    name: dwk-repo-auth
   ref:
     branch: master
